@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+.contenedor{
+    background: #141414;
+    background-position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+header{
+    width: 100%;
+    height: 60px;
+    background: linear-gradient(#080808 0%, #13131309 100%)
+}
+
+.logo{
+    width: 95px;
+    position: relative;
+    top: 20px;
+    left: 60px;
+    z-index: 100;
+}
+
+main{
+    margin-top: 110px;
+    text-align: center;
+}
+
+main .titulo{
+    font-size: 50px;
+    color: #ffffff;
+    font-weight: 500;
+    margin-bottom: 35px;
+}
+
+main .perfiles ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main ul{
+    list-style-type: none;
+    cursor: pointer;
+}
+
+main .perfiles .link-perfil img{
+    width: 160px;
+    height: 160px;
+    margin-bottom: 8px;
+    border-radius: 8px;
+    margin-right: 25px;
+}
+
+main .perfiles .link-perfil .nombre-perfil{
+    color: #808080;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 6px
+}
+
+main .perfiles .link-perfil:hover img{
+    border: 3px solid #ffffff;
+}
+
+main .perfiles .link-perfil:hover .nombre-perfil{
+    color:#ffffff;
+}
+
+main .administrar-perfil{
+    margin-top: 80px;
+    
+}
+
+main .administrar-perfil button{
+    border: 1px solid #808080;
+    color: #808080;
+    background-color: transparent;
+    font-size: 22px;
+    height: 46px;
+    padding: 10px 35px;
+    margin-bottom: 11%;
+    cursor: pointer;
+}
+
+main .administrar-perfil button:hover{
+    color: #ffffff;
+    border: 1px solid #ffffff;
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <link rel="icon" type="image/svg" href="icon/netflix-letra.svg">
+    <link rel="stylesheet" href="estilos/login.css">
+</head>
+<body>
+    <div class="contenedor">
+        <header>
+            <img src="icon/Logo-Netflix.png" alt="Logo" class="logo" draggable="false">
+                <div class="signin">
+                    <h2>Inicia Sesión</h2>
+                    <form action="perfiles.html">
+                        <input type="text" name="name" id="name" placeholder="Email o número de télefono" autocomplete="off">
+                        <input type="password" name="password" id="password" placeholder="Contraseña">
+                        <input type="submit" value="Iniciar Sesión">
+                    </form>
+                    <div class="ayuda">
+                        <div class="check">
+                            <input type="checkbox" name="remember" id="remember">
+                            <label for="remember">Recuérdame</label>
+                        </div>
+                        <div class="need">
+                            <a href="https://www.netflix.com/mx/LoginHelp">¿Necesitas ayuda?</a>
+                        </div>
+                    </div>
+                    <div class="pie-formulario">
+                        <a href="#" class="login">
+                            <img src="icon/facebook.svg" class="facebook" alt="">
+                            Iniciar Sesión con Facebook
+                        </a>
+                        <p class="nuevo">
+                            ¿Primera vez en Netflix?
+                            <a href="https://www.netflix.com/mx/">Suscríbete ahora.</a>
+                        </p>
+                        <p class="captcha">
+                            Esta página está protegida por Google reCAPTCHA para comprobar que no eres un robot.
+                            <a href="#">Más info</a>
+                        </p>
+                    </div>
+                </div>
+        </header>
+        <footer class="pie-pagina">
+            <div class="info">
+                <p>
+                    ¿Preguntas? Llama al 
+                    <a href="tel:800-062-2406">800-062-2406</a>
+                </p>
+                <ul class="links">
+                    <li class="items">
+                        <a href="https://help.netflix.com/es/node/412">Preguntas frecuentes</a>
+                    </li>
+                    <li class="items">
+                        <a href="https://help.netflix.com/es/">Centro de ayuda</a>
+                    </li>
+                    <li class="items">
+                        <a href="https://help.netflix.com/legal/termsofuse">Términos de uso</a>
+                    </li>
+                    <li class="items">
+                        <a href="https://help.netflix.com/legal/privacy">Privacidad</a>
+                    </li>
+                    <li class="items">
+                        <a href="https://www.netflix.com/mx/login#">Preferencias de cookies</a>
+                    </li>
+                    <li class="items">
+                        <a href="https://help.netflix.com/legal/corpinfo">Información corporativa</a>
+                    </li>
+                </ul>
+                <select name="idioma" id="idioma" >
+                    <option value="Es"> Español</option>
+                    <option value="En">English</option>
+                </select>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
